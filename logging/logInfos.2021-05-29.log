@@ -1,0 +1,29 @@
+2021-05-29 20:04:19,197 INFO com.backend.EBankingApplicationTests [main] Starting EBankingApplicationTests on X1-Carbon with PID 12664 (started by soufiane in C:\Users\User\Desktop\Angular project\project\E-Banking-Back-End)
+2021-05-29 20:04:19,201 DEBUG com.backend.EBankingApplicationTests [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-05-29 20:04:19,211 INFO com.backend.EBankingApplicationTests [main] No active profile set, falling back to default profiles: default
+2021-05-29 20:04:28,452 INFO com.backend.EBankingApplicationTests [main] Starting EBankingApplicationTests on X1-Carbon with PID 13484 (started by soufiane in C:\Users\User\Desktop\Angular project\project\E-Banking-Back-End)
+2021-05-29 20:04:28,456 DEBUG com.backend.EBankingApplicationTests [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-05-29 20:04:28,459 INFO com.backend.EBankingApplicationTests [main] No active profile set, falling back to default profiles: default
+2021-05-29 20:05:16,685 INFO com.backend.EBankingApplicationTests [main] Started EBankingApplicationTests in 58.485 seconds (JVM running for 65.486)
+2021-05-29 20:05:27,292 INFO com.backend.EBankingApplicationTests [main] Started EBankingApplicationTests in 59.257 seconds (JVM running for 63.42)
+2021-05-29 20:22:07,668 INFO com.backend.EnsaBackApplication [main] Starting EnsaBackApplication on X1-Carbon with PID 12380 (C:\Users\User\Desktop\Angular project\project\E-Banking-Back-End\target\classes started by soufiane in C:\Users\User\Desktop\Angular project\project\E-Banking-Back-End)
+2021-05-29 20:22:07,676 DEBUG com.backend.EnsaBackApplication [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-05-29 20:22:07,677 INFO com.backend.EnsaBackApplication [main] No active profile set, falling back to default profiles: default
+2021-05-29 20:22:44,213 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2021-05-29 20:23:14,455 INFO com.backend.EnsaBackApplication [main] Starting EnsaBackApplication on X1-Carbon with PID 6548 (C:\Users\User\Desktop\Angular project\project\E-Banking-Back-End\target\classes started by soufiane in C:\Users\User\Desktop\Angular project\project\E-Banking-Back-End)
+2021-05-29 20:23:14,458 DEBUG com.backend.EnsaBackApplication [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-05-29 20:23:14,459 INFO com.backend.EnsaBackApplication [main] No active profile set, falling back to default profiles: default
+2021-05-29 20:24:15,223 INFO com.backend.EnsaBackApplication [main] Started EnsaBackApplication in 61.466 seconds (JVM running for 62.386)

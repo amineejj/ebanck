@@ -1,0 +1,2 @@
+2021-06-06 02:05:49,294 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8091-exec-7] HikariPool-1 - Connection is not available, request timed out after 30080ms.
+2021-06-06 02:05:49,376 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8091-exec-7] No operations allowed after connection closed.

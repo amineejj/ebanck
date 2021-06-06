@@ -1,0 +1,24 @@
+2021-06-05 08:42:28,988 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8091-exec-4] HikariPool-1 - Connection is not available, request timed out after 30035ms.
+2021-06-05 08:42:29,052 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8091-exec-4] Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2021-06-05 08:42:55,179 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8091-exec-8] HikariPool-1 - Connection is not available, request timed out after 30000ms.
+2021-06-05 08:42:55,181 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8091-exec-8] Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2021-06-05 08:42:59,541 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8091-exec-4] HikariPool-1 - Connection is not available, request timed out after 30001ms.
+2021-06-05 08:42:59,542 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8091-exec-4] Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2021-06-05 08:43:23,013 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8091-exec-5] HikariPool-1 - Connection is not available, request timed out after 30000ms.
+2021-06-05 08:43:23,014 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8091-exec-5] Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2021-06-05 08:43:38,089 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8091-exec-9] HikariPool-1 - Connection is not available, request timed out after 30001ms.
+2021-06-05 08:43:38,091 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8091-exec-9] Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2021-06-05 08:44:29,175 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8091-exec-6] HikariPool-1 - Connection is not available, request timed out after 30000ms.
+2021-06-05 08:44:29,180 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8091-exec-6] Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.

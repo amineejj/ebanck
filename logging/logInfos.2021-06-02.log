@@ -1,0 +1,20 @@
+2021-06-03 09:38:17,654 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8091-exec-2] HikariPool-1 - Connection is not available, request timed out after 30001ms.
+2021-06-03 09:38:17,663 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8091-exec-2] Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2021-06-03 09:38:42,974 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8091-exec-8] HikariPool-1 - Connection is not available, request timed out after 30000ms.
+2021-06-03 09:38:42,974 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8091-exec-8] Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2021-06-03 09:39:07,679 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8091-exec-6] HikariPool-1 - Connection is not available, request timed out after 30000ms.
+2021-06-03 09:39:07,679 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8091-exec-6] Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2021-06-03 09:39:12,985 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8091-exec-3] HikariPool-1 - Connection is not available, request timed out after 30000ms.
+2021-06-03 09:39:12,989 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8091-exec-3] Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2021-06-03 09:41:16,012 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8091-exec-1] HikariPool-1 - Connection is not available, request timed out after 30001ms.
+2021-06-03 09:41:16,017 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8091-exec-1] Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
