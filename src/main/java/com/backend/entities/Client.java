@@ -52,6 +52,11 @@ public @Data class Client  extends Utilisateur{
 	@OneToMany(mappedBy="proprietaire",cascade=CascadeType.ALL)
 	List<Compte> comptes;
 	
+	@JsonIgnore
+	@Column(name="BENEF_CLIENT")
+	@OneToMany(mappedBy="client",cascade=CascadeType.ALL)
+	List<Beneficiaire> benef;
+	
 	
 	
 }

@@ -116,7 +116,7 @@ public class AppSecurityConfig extends WebSecurityConfigurerAdapter {
 			.antMatchers(HttpMethod.DELETE,"/agent/{id}").hasRole("Admin")	//supprimer agent
 			.antMatchers(HttpMethod.GET,"/agence/{id}/agents").hasRole("Admin")	//afficher agents
 			.antMatchers(HttpMethod.GET,"/agent/username/{username}").hasRole("Agent")		//agent par username
-			.antMatchers(HttpMethod.GET,"/agents").hasRole("Admin")		//afficher agent
+			.antMatchers(HttpMethod.GET,"/agents").permitAll()	//afficher agent
 			
 			//AGENCE
 			.antMatchers(HttpMethod.GET,"/agences").hasAnyRole("Admin","Agent")		//afficher agences
@@ -137,7 +137,11 @@ public class AppSecurityConfig extends WebSecurityConfigurerAdapter {
 			.antMatchers(HttpMethod.GET,"/agence/{id}/clients").permitAll()	//afficher clients
 			.antMatchers(HttpMethod.PUT,"/client/{id}").permitAll()	//modifier client
 			.antMatchers(HttpMethod.DELETE,"/client/{id}").permitAll()	//supprimer client
-			
+			//BENEF
+			.antMatchers(HttpMethod.GET,"/client/{id}/benef").permitAll()	// afficher les benef du client id
+			.antMatchers(HttpMethod.POST,"/beneficiaire").permitAll()
+			.antMatchers(HttpMethod.GET,"/beneficiaire/{id}").permitAll()
+			.antMatchers(HttpMethod.DELETE,"/beneficiaire/{id}").permitAll()
 			//COMPTE
 			.antMatchers(HttpMethod.GET,"/client/{id}/comptes").permitAll()	//afficher comptes
 			.antMatchers(HttpMethod.GET,"/comptes").permitAll()	//afficher compte

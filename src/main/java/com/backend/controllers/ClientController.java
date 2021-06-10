@@ -46,7 +46,12 @@ public class ClientController {
 			{
 				return service.getComptes(id);
 			}
-			
+			@GetMapping("/client/{id}/benef")
+			@ResponseStatus(HttpStatus.OK)
+			public List<Beneficiaire> getBeneficiaires(@PathVariable(name="id") Long id) throws NotFoundException
+			{
+				return service.getBeneficiaires(id);
+			}
 		
 		
 		//POST

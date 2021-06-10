@@ -148,6 +148,13 @@ public class ClientService {
 		logger.debug("L'agent "+agent.getNom()+" "+agent.getPrenom()+" ayant le Username "+agent.getUsername()+" a supprimé le client avec le username "+client.getUsername());
 
 	}
+
+
+	public List<Beneficiaire> getBeneficiaires(Long id) {
+		Client client= rep.findById(id).orElseThrow(() -> new NotFoundException("Aucun client avec l'id "+id+" trouvé"));
+		if(client.getBenef().isEmpty()) throw new NotFoundException("Cet client n'a aucun benificiare.");
+		return client.getBenef();
+	}
 	
 	
 }

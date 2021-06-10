@@ -1,0 +1,4 @@
+2021-06-07 21:52:33,591 INFO com.backend.EnsaBackApplication [main] Starting EnsaBackApplication on X1-Carbon with PID 17888 (C:\Users\User\Desktop\Angular project\project\E-Banking-Back-End\target\classes started by soufiane in C:\Users\User\Desktop\Angular project\project\E-Banking-Back-End)
+2021-06-07 21:52:33,605 DEBUG com.backend.EnsaBackApplication [main] Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2021-06-07 21:52:33,607 INFO com.backend.EnsaBackApplication [main] No active profile set, falling back to default profiles: default
+2021-06-07 21:53:33,115 INFO com.backend.EnsaBackApplication [main] Started EnsaBackApplication in 60.788 seconds (JVM running for 63.206)
