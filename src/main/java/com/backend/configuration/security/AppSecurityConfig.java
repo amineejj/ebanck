@@ -119,10 +119,10 @@ public class AppSecurityConfig extends WebSecurityConfigurerAdapter {
 			.antMatchers(HttpMethod.GET,"/agents").permitAll()	//afficher agent
 			
 			//AGENCE
-			.antMatchers(HttpMethod.GET,"/agences").hasAnyRole("Admin","Agent")		//afficher agences
-			.antMatchers(HttpMethod.POST,"/agences").hasRole("Admin")		//creer agences
-			.antMatchers(HttpMethod.PUT,"/agence/{id}").hasRole("Admin")	//modifier agence
-			.antMatchers(HttpMethod.DELETE,"/agence/{id}").hasRole("Admin")	//supprimer agence
+			.antMatchers(HttpMethod.GET,"/agences").permitAll()		//afficher agences
+			.antMatchers(HttpMethod.POST,"/agences").permitAll()		//creer agences
+			.antMatchers(HttpMethod.PUT,"/agence/{id}").permitAll()	//modifier agence
+			.antMatchers(HttpMethod.DELETE,"/agence/{id}").permitAll()	//supprimer agence
 		
 			//DEVISE
 			.antMatchers(HttpMethod.GET,"/devises").hasAnyRole("Admin","Agent","Client")		//afficher devises
@@ -150,6 +150,7 @@ public class AppSecurityConfig extends WebSecurityConfigurerAdapter {
 			.antMatchers(HttpMethod.DELETE,"/compte/{id}").permitAll()//supprimer compte
 			.antMatchers(HttpMethod.GET,"/compte/{numero}").permitAll()	//afficher compte
 			.antMatchers(HttpMethod.GET,"/contratPDF/{id}").permitAll()	//Contrat PDF
+		
 			
 			//VIREMENT ET RECHARGE
 			.antMatchers(HttpMethod.GET,"/compte/{id}/virements").permitAll()	//afficher virements
@@ -161,6 +162,11 @@ public class AppSecurityConfig extends WebSecurityConfigurerAdapter {
 			.antMatchers(HttpMethod.POST,"/virements").permitAll()//creer virement
 			.antMatchers(HttpMethod.GET,"/recharges").permitAll()//afficher recharge
 			.antMatchers(HttpMethod.POST,"/recharges").permitAll()	//creer recharge
+			
+			//VIREMENT MULTIPLE
+			.antMatchers(HttpMethod.GET,"/virement/multiple").permitAll()	//afficher virements
+			.antMatchers(HttpMethod.GET,"/virement/multiple/{id}").permitAll() //afficher virement specifique
+			.antMatchers(HttpMethod.POST,"/virement/multiple").permitAll()	//poster virements
 			
 			//OPERATIONS (RETRAIT ET VERSEMENT)
 			.antMatchers(HttpMethod.GET,"/operations").hasAnyRole("Agent","Client")	//afficher operation

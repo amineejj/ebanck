@@ -10,11 +10,13 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import lombok.Data;
 
 @Entity
 @Table(name="VIREMENT")
-public @Data class Virement {
+public @Data class Virement extends VirementSuperClass {
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
@@ -23,20 +25,9 @@ public @Data class Virement {
 	
 	@JoinColumn(name="CREANCIER_VIREMENT")
 	@ManyToOne 
+	@JsonIgnore
 	Compte creancier;
-	
-	@JoinColumn(name="DEBITEUR_VIREMENT")
-	@ManyToOne
-	Compte debiteur;
-	
-	@Column(name="DATE_VIREMENT")
-	LocalDateTime date;
-	
-	@Column(name="SOMME_ENV_VIREMENT")
-	double sommeEnv;
 	
 	@Column(name="SOMME_RECU_VIREMENT")
 	double sommeRecu;
-
-
 }

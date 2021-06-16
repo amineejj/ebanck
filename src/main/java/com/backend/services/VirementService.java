@@ -7,6 +7,8 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.transaction.Transactional;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -61,7 +63,7 @@ public class VirementService {
 	}
 		
 	
-	
+	@Transactional
 	public void addVirement(Virement virement) throws Exception, AlreadyExistsException
 	{
 		

@@ -33,7 +33,7 @@ public class BeneficiaireController {
 	
 	@GetMapping("/beneficiaire/{id}")
 	@ResponseStatus(HttpStatus.OK)
-	public Beneficiaire getBeneficiaires(@RequestParam(value="id") Long id)
+	public Beneficiaire getBeneficiaires(@PathVariable(value="id") Long id)
 	{
 		
 		return service.getBeneficiaire(id);
